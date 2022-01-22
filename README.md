@@ -60,6 +60,6 @@ Stay tooned, I'm going to upload other techniques for exfiltration.
 ###### FTP exfiltration 
 ![Screenshot_2022-01-22_18-30-25](https://user-images.githubusercontent.com/94323404/150651110-8dbeb397-25ce-4f56-8fe7-9ad62c7eada6.png)
 
-###### Mega Cloud
+###### Mega Cloud exfiltration
 
 ![immagine](https://user-images.githubusercontent.com/94323404/150651826-ebf9ca7c-ae0e-4783-afaa-d44bb0854112.png)
