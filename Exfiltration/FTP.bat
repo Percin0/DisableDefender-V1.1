@@ -1,11 +1,11 @@
 echo off
 
 rem insert the FTP server address & port and the credentials
-set dir=WinSCP\
-set srv=SERVER
-set port=PORT
-set usr=anonymous
-set pass=anonymous
+set dir="WinSCP\"
+set srv="SERVER"
+set port="PORT"
+set usr="anonymous"
+set pass="anonymous"
 
 cd C:\Program Files (x86)
 IF EXIST %dir% (
