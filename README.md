@@ -1,7 +1,7 @@
 # PerciBAT - DisableDefender
 
 # Usage
-- Store the repository and Nsudo.exe on your server.
+- Store the repository on your server.
 - Change the variable srv with own web server's IP from Perci.bat and CleanerPerci.bat
 - Change the IP address and credentials in the exfiltration technique file you choose.
 - Run Perci.bat on the victim.
@@ -10,7 +10,7 @@
 Perci is ideal for SOC operators' first analysis. It's a simple script able to defeat Windows Defender running on Windows 10. It modifies many Windows 10 Defender drivers' registry values using NSudo, dumping of credentials with Mimikatz and afterwards perfoming different exfiltration's techniques.
 
 # How it works
-Perci.bat will create the directory C:\Supertools where it will install NSudo (You need to have in your server!), Percino.exe and CleanerPerci.bat. 
+Perci.bat will create the directory C:\Supertools where it will install NSudo, Percino.exe and CleanerPerci.bat. 
 Perci.bat will force the reboot.
 When the reboot is completed, Percino.exe will run at the startup and first will check if there is connection and then when the user connect on internet. It it will install Mimikatz to perform the dump of credentials. At the end, Percino.exe will call CleanerPerci.bat in order to perform exfiltration and delete all traces.
 
