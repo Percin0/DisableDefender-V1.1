@@ -3,7 +3,7 @@
 title Perci :)
 
 rem change srv information and Nsudo.exe name hosted in your srv
-set server="192.168.1.172:8000"
+set server="10.10.10.10:8000"
 set directory="C:\Supertools"
 
 net session >nul 2>&1
