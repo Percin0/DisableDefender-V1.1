@@ -1,5 +1,5 @@
 # PerciBAT - DisableDefender
-New version! More fast
+New version! More fast and it works with Win10 and Win11 :)
 
 # Usage
 - Store the repository on your server.
