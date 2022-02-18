@@ -41,7 +41,7 @@ Mimikatz:
 - https://www.sentinelone.com/cybersecurity-101/mimikatz/
 
 
-# Discalimer 
+# Disclaimer  
 Only for analysis do not use without authorization. Only for educational purpose.
 
 # Contact
